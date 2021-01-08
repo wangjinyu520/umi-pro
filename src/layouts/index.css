@@ -1,0 +1,29 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  height: 64px;
+}
+.content {
+  padding: 24px;
+  background: #f0f2f5;
+  flex: 1;
+  padding: 20px 30px;
+}
+.contentMain {
+  background-color: #fff;
+  min-height: calc(100vh - 144px);
+  padding: 20px;
+}
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.footer {
+  height: 80px;
+}
